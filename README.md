@@ -5,7 +5,7 @@
 2.	Exploratory data analysis (EDA)
   focused on data types, distribution, null, zero & missing values in the dataset and filled them with the mean (numerical columns), Unknown or most frequently occurred values (categorical values).
 3.	Drop features
-  After data analyzing step, dropped quantity_group, source_class, source_type, quality_group, payment_type, extraction_type_class, extraction_type & waterpoint_type_group columns. These columns are not very useful because some of the data & information in these columns are also in the other columns of the dataset or not target value doesn’t depend on these features. 
+  After data analyzing step, dropped quantity_group, source_class, source_type, quality_group, payment_type, extraction_type_class, extraction_type & waterpoint_type_group columns. These columns are not very useful because some of the data & information in these columns are also in the other columns of the dataset or target value doesn’t depend on these features. 
 4.	Data preparing
   -	Encoding categorical variables using Label Encoding.
   - Scaling data using robust scaling (doesn’t increase the accuracy)
