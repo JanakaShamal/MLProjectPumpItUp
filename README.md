@@ -7,21 +7,21 @@
 3.	Drop features
   After data analyzing step, dropped quantity_group, source_class, source_type, quality_group, payment_type, extraction_type_class, extraction_type & waterpoint_type_group columns. These columns are not very useful because some of the data & information in these columns are also in the other columns in the dataset or not target value doesn’t depend on these features. 
 4.	Data preparing
-  a.	Encoding categorical variables using Label Encoding.
-  b.	Scaling data using robust scaling (doesn’t increase the accuracy)
+  -	Encoding categorical variables using Label Encoding.
+  - Scaling data using robust scaling (doesn’t increase the accuracy)
 5.	Feature selection.
-  •	Sequence feature selection techniques to identify features with high accuracy
-    o	Random Forest
-    o	XGBoost
-    o	CatBoost
-    o	KNN
-  •	Correlation analyzing
-  •	Training data on Random Forest and Selecting most important features by using feature rankings.
+  - Sequence feature selection techniques to identify features with high accuracy
+    -	Random Forest
+    -	XGBoost
+    -	CatBoost
+    -	KNN
+  -	Correlation analyzing
+  -	Training data on Random Forest and Selecting most important features by using feature rankings.
 6.	Generating new features using PCA & check for the accuracy gain.
 7.	Training & evaluating models using 5-fold cross validation
-  •	Random forest (highest accuracy)
-  •	Catboost
-  •	XGBoost
+  -	Random forest (highest accuracy)
+  -	Catboost
+  -	XGBoost
 
 
 
